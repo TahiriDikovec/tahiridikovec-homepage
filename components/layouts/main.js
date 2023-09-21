@@ -29,7 +29,7 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Takuya Matsuyama" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Tahiri Dikovec - Homepage</title>
+        <title>Tahiri Dikovec - Pentester & Social Engineer</title>
       </Head>
 
       <NavBar path={router.asPath} />
