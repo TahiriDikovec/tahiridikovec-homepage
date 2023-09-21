@@ -22,10 +22,10 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 )
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => (
-  <Box w="100%" textAlign="center">
+  <Box w="100%" textAlign="center" mb={-4}>
     <LinkBox
       as={NextLink}
-      href={`/works/${id}`}
+      href={`/post/${id}`}
       scroll={false}
       cursor="pointer"
     >
@@ -35,8 +35,8 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
         className="grid-item-thumbnail"
         placeholder="blur"
       />
-      <LinkOverlay as="div" href={`/works/${id}`}>
-        <Text mt={2} fontSize={20}>
+      <LinkOverlay as="div" href={`/post/${id}`}>
+        <Text mt={2} fontSize={18}>
           {title}
         </Text>
       </LinkOverlay>

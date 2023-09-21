@@ -11,15 +11,24 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import { Paragraph, Paragraph2 } from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+
+/*
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+*/
+
+import thunbEslabonDebil from '../public/images/posts/1/el-eslabon-debil-de-tu-empresa.png'
+import thunbCyberAttackBusiness from '../public/images/posts/2/ciberataque-contra-una-empresa.png'
+import thunbSocialEngineering from '../public/images/posts/3/mi-definicion-ingenieria-social.png'
+import thunb4 from '../public/images/posts/4/ingenieria-social-oficina.png'
+
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -37,15 +46,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hola, mi nombre es Tahiri Dikovec, soy Pentester y Social Engineer!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Tahiri Dikovec
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Pentester & Social Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +73,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/tahiridikovec-profile.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100"
@@ -76,175 +85,153 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Sobre mí
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+        Soy un profesional con 15 años de experiencia en el campo de la ciberseguridad.
+        Me he especializado en Pentesting e Ingeniería Social. A lo largo de mi carrera,
+        he liderado proyectos de pentesting y diseñado estrategias de ingeniería social
+        para una variedad de empresas, abarcando desde emergentes startups hasta reconocidas
+        corporaciones multinacionales.
         </Paragraph>
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="/works"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
-          >
-            My portfolio
-          </Button>
-        </Box>
+        <br />
+        <Paragraph2>
+        Mi misión primordial es fortalecer la defensa de estas organizaciones frente a
+        amenazas cibernéticas, asegurando la integridad y confidencialidad de sus sistemas y datos.
+        </Paragraph2>
       </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+        Certificados
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>⦿</BioYear>
+          <Link href="https://verified.elearnsecurity.com/certificates/d4e7bc90-846f-4d22-967f-40dd837f3dfa" target="_blank">eJPT | eLearnSecurity Junior Penetration Tester</Link>
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>⦿</BioYear>
+          LCSPC | Lead Cybersecurity Professional Certificate
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>⦿</BioYear>
+          CPTE | Certified Penetration Testing Engineer
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>⦿</BioYear>
+          CPTC | Certified Penetration Testing Consultant
+        </BioSection>
+        <BioSection>
+          <BioYear>⦿</BioYear>
+          CSWAE | Certified Secure Web Application Engineer
+        </BioSection>
+        <BioSection>
+          <BioYear>⦿</BioYear>
+          API Security Architect
+        </BioSection>
+        <BioSection>
+          <BioYear>⦿</BioYear>
+          <Link href="https://learning.first.org/certificates/e1b71cbc30e34e1fbb0308048c2946db" target="_blank">FIRST CVSSv3.1 Certificate</Link>
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
-        </Paragraph>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          On the web
+          Redes sociales
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://www.linkedin.com/in/tahiridikovec/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
+                leftIcon={<IoLogoLinkedin />}
               >
-                @craftzdog
+                @tahiridikovec
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @inkdrop_app (English)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://www.instagram.com/tahiridikovec/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @tahiridikovec
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/TahiriDikovec" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @TahiriDikovec
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://github.com/TahiriDikovec" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                @TahiriDikovec
               </Button>
             </Link>
           </ListItem>
         </List>
+      </Section>
 
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Mis últimos artículos
+        </Heading>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
+            href="#"
+            title="Los Ataques Presenciales y No Presenciales en la Ingeniería Social"
+            thumbnail={thunb4}
           >
-            My YouTube channel (&gt;150k subs)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
+            href="#"
+            title="Mi definición sobre el arte y la ciencia de la Ingeniería Social"
+            thumbnail={thunbSocialEngineering}
           >
-            A Markdown note-taking app
           </GridItem>
         </SimpleGrid>
-
-        <Heading as="h3" variant="section-title">
-          Newsletter
-        </Heading>
-        <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
-        </p>
-
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="https://www.devas.life/"
-            scroll={false}
-            leftIcon={<EmailIcon />}
-            colorScheme="teal"
+        <br/>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="#"
+            title="Fases de un ciberataque contra el eslabón más débil de tu empresa"
+            thumbnail={thunbCyberAttackBusiness}
           >
-            Sign up my newsletter here
-          </Button>
+          </GridItem>
+          <GridItem
+            href="#"
+            title="Encuentra al eslabón más débil de tu empresa y fortalécelo"
+            thumbnail={thunbEslabonDebil}
+          >
+          </GridItem>
+        </SimpleGrid>
+        <Box align="center" my={6}>
+          <NextLink href="/blog" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Mis artículos
+            </Button>
+          </NextLink>
         </Box>
       </Section>
+
     </Container>
   </Layout>
 )
 
 export default Home
-export { getServerSideProps } from '../components/chakra'
+export { getStaticProps } from '../components/chakra'
