@@ -45,7 +45,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="los-ataques-presenciales-y-no-presenciales-en-la-ingenieria-social" title="Los Ataques Presenciales y No Presenciales en la Ingeniería Social" thumbnail={thunbSocialEngineeringOffice}></WorkGridItem>
+          <WorkGridItem id="los-ataques-presenciales-y-no-presenciales-en-la-ingenieria-social" title="Los Ataques Presenciales y No Presenciales en la Ing. Social" thumbnail={thunbSocialEngineeringOffice}></WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="mi-definicion-sobre-el-arte-y-la-ciencia-de-la-ingenieria-social" title="Mi definición sobre el arte y la ciencia de la Ingeniería Social" thumbnail={thunbSocialEngineering}></WorkGridItem>
