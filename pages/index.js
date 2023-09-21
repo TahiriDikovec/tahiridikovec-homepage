@@ -193,13 +193,13 @@ const Home = () => (
         </Heading>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="#"
+            href="https://tahiridikovec.com/post/los-ataques-presenciales-y-no-presenciales-en-la-ingenieria-social"
             title="Los Ataques Presenciales y No Presenciales en la Ingeniería Social"
             thumbnail={thunb4}
           >
           </GridItem>
           <GridItem
-            href="#"
+            href="https://tahiridikovec.com/post/mi-definicion-sobre-el-arte-y-la-ciencia-de-la-ingenieria-social"
             title="Mi definición sobre el arte y la ciencia de la Ingeniería Social"
             thumbnail={thunbSocialEngineering}
           >
@@ -208,13 +208,13 @@ const Home = () => (
         <br/>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="#"
+            href="https://tahiridikovec.com/post/fases-de-un-ciberataque-contra-el-eslabon-mas-debil-de-tu-empresa"
             title="Fases de un ciberataque contra el eslabón más débil de tu empresa"
             thumbnail={thunbCyberAttackBusiness}
           >
           </GridItem>
           <GridItem
-            href="#"
+            href="https://tahiridikovec.com/post/encuentra-al-eslabon-mas-debil-de-tu-empresa-y-fortalecelo"
             title="Encuentra al eslabón más débil de tu empresa y fortalécelo"
             thumbnail={thunbEslabonDebil}
           >

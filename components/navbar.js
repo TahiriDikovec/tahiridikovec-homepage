@@ -95,22 +95,10 @@ const Navbar = props => {
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">
-                  About
+                  Inicio
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
-                  Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
-                </MenuItem>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
-                >
-                  View Source
+                <MenuItem as={MenuLink} href="/blog">
+                  Blog
                 </MenuItem>
               </MenuList>
             </Menu>
