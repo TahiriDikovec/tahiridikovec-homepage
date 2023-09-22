@@ -111,7 +111,7 @@ import {
     </Paragraph2>
     <br/>
     <Paragraph2>
-    Esta meticulosidad es esencial, ya que un pequeño error o un detalle pasado por alto puede ser la diferencia entre el éxito y el fracaso. Si deseas entender más sobre cómo se lleva a cabo un ciberataque meticulosamente planificado por los cibercriminales, te recomiendo leer mi artículo &quot;<Link href="#" target="_blank">Fases de un ciberataque contra el eslabón más débil de tu empresa</Link>&quot;.
+    Esta meticulosidad es esencial, ya que un pequeño error o un detalle pasado por alto puede ser la diferencia entre el éxito y el fracaso. Si deseas entender más sobre cómo se lleva a cabo un ciberataque meticulosamente planificado por los cibercriminales, te recomiendo leer mi artículo &quot;<Link href="https://tahiridikovec.com/post/fases-de-un-ciberataque-contra-el-eslabon-mas-debil-de-tu-empresa" target="_blank">Fases de un ciberataque contra el eslabón más débil de tu empresa</Link>&quot;.
     </Paragraph2>
     <br/>
     <Box flexGrow={1}>

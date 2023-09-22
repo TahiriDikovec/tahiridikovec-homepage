@@ -36,7 +36,7 @@ import {
       </Title>
       <PostImage alt="Ingeniería Social en la Oficina" src="/images/posts/4/ingenieria-social-oficina.png" />
     <P>
-    ¡Hola, estimado amigo lector! Dado que ya te introduje al mundo de la ingeniería social en el artículo &quot;Mi definición sobre el arte y la ciencia de la Ingeniería Social&quot;, es hora de explorar más detalladamente sus dos principales modalidades: los ataques presenciales y los no presenciales. Ambos tienen sus propias tácticas y desafíos. Si aún no has leído el artículo anterior, te recomiendo que le eches un vistazo aquí para tener una base sólida. Pero si ya estás al día, acompáñame en este viaje para entender cómo funcionan y cómo protegerte de ellos. ¡Vamos allá!
+    ¡Hola, estimado amigo lector! Dado que ya te introduje al mundo de la ingeniería social en el artículo &quot;<Link href="https://tahiridikovec.com/post/mi-definicion-sobre-el-arte-y-la-ciencia-de-la-ingenieria-social" target="_blank">Mi definición sobre el arte y la ciencia de la Ingeniería Social</Link>&quot;, es hora de explorar más detalladamente sus dos principales modalidades: los ataques presenciales y los no presenciales. Ambos tienen sus propias tácticas y desafíos. Si aún no has leído el artículo anterior, te recomiendo que le eches un vistazo aquí para tener una base sólida. Pero si ya estás al día, acompáñame en este viaje para entender cómo funcionan y cómo protegerte de ellos. ¡Vamos allá!
     </P>
     <br/>
     <Box flexGrow={1}>

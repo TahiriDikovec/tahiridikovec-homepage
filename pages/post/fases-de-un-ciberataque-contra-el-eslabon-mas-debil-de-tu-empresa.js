@@ -40,7 +40,7 @@ import {
       </P>
       <br/>
       <Paragraph2>
-      Antes de continuar, te recomiendo echar un vistazo a nuestro artículo anterior:  <Link href="#" target="_blank">Encuentra al eslabón más débil de tu empresa y fortalécelo</Link>. En él, exploramos la clasificación de los trabajadores según su conocimiento tecnológico, un tema que está estrechamente relacionado con lo que vamos a discutir aquí. ¡No te lo pierdas!
+      Antes de continuar, te recomiendo echar un vistazo a nuestro artículo anterior:  <Link href="https://tahiridikovec.com/post/encuentra-al-eslabon-mas-debil-de-tu-empresa-y-fortalecelo" target="_blank">Encuentra al eslabón más débil de tu empresa y fortalécelo</Link>. En él, exploramos la clasificación de los trabajadores según su conocimiento tecnológico, un tema que está estrechamente relacionado con lo que vamos a discutir aquí. ¡No te lo pierdas!
       </Paragraph2>
       <br/>
       <Paragraph2>
