@@ -79,7 +79,7 @@ const Work = () => (
     </Box>
     <br/>
     <Paragraph2>
-    Los ciberdelincuentes investigan a las empresas y a sus empleados para identificar a la persona más susceptible y preparar un ataque específico. Es decir, están buscando al objetivo. Es posible que rastreen las redes sociales como LinkedIn, Instagram, TikTok, Facebook, entre otros, investiguen el historial de trabajo de alguien o incluso simulen ser un colega para obtener información.
+    Los ciberdelincuentes investigan a las empresas y a sus empleados para identificar a la persona más susceptible y preparar un ataque específico. Es decir, están buscando al objetivo. Es posible que rastreen las redes sociales como LinkedIn, Instagram, TikTok, Facebook, entre otros, investigan el historial de trabajo de alguien o incluso simulan ser un colega para obtener información.
     </Paragraph2>
     <br/>
     <Box flexGrow={1}>
