@@ -94,7 +94,7 @@ const Work = () => (
     <br/>
     <Box flexGrow={1}>
         <Heading as="h3" variant="page-title" fontSize={18}>
-        Educar y fortalecer el eslabón más débil
+        Educar y fortalecer al eslabón más débil
         </Heading>
     </Box>
     <br/>
