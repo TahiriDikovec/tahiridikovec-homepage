@@ -61,7 +61,7 @@ const Work = () => (
     </Paragraph2>
     <br/>
     <Paragraph2>
-      <Bold>2. Los trabajadores con conocimientos básicos sobre tecnología:</Bold> Este grupo se siente cómodo realizando tareas diarias en dispositivos electrónicos. Pueden enviar correos, crear documentos y presentaciones, y navegar por la web. Sin embargo, su conocimiento sobre la ciberseguridad puede ser limitado. Es probable que reconozcan las amenazas más obvias, pero podrían ser engañados por técnicas más sutiles, como los correos de phishing bien diseñados.
+      <Bold>2. Los trabajadores con conocimientos básicos sobre tecnología:</Bold> Este grupo se siente cómodo realizando tareas diarias en dispositivos electrónicos. Pueden enviar correos, crear documentos y presentaciones, y navegar por Internet. Sin embargo, su conocimiento sobre la ciberseguridad puede ser limitado. Es probable que reconozcan las amenazas más obvias, pero podrían ser engañados por técnicas más sutiles, como los correos de phishing bien diseñados.
     </Paragraph2>
     <br/>
     <Paragraph2>
